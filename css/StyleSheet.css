@@ -1,0 +1,101 @@
+span {
+    color: #fe0000;
+}
+
+.a-tion {
+    padding-left: 18px; 
+    font-size: 150%;
+}
+
+.label-hide {
+    font-size: 120%;
+}
+
+.a-tion, .label-hide {
+    font-family: Bauhaus;
+    font-weight: bold;
+}
+
+.head-doted-line a:link, .green a:link {
+    text-decoration: underline;
+}
+
+.red-line {
+    width: 20px;
+    height: 27px;
+    border-left: 5px solid #fe0000;
+    border-top: 5px solid #fe0000;
+    border-top-left-radius: 13px;
+    position: absolute;
+    top: 40px;
+    left: 49px;
+}
+
+.forgot{
+    color: #888888;
+}
+
+.head-link {
+    padding-left: 18px; 
+}
+
+.login-form{
+    padding: 30px 30px 30px 30px;
+    border: 2px solid #cacaca;
+    border-top-right-radius: 57px;
+    border-bottom-left-radius: 57px;
+    border-bottom-right-radius: 57px;
+}
+
+.head-doted-line {
+    padding-bottom: 10px;
+    margin: 17px;
+    border-bottom: 2px dotted #cacaca;
+}
+
+.btn-row {
+    height: 0;
+}
+
+@media (min-width: 992px){
+    .btn-options {
+        width: 150px;
+        height: 30px;
+        position:relative;
+        top:30px;
+        left: -5%;
+        color: #ffffff;
+        background-color: #0e3d13;
+        border: none;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+}
+@media (max-width:738px) {
+    .label-hide {
+        display: none;
+    }
+}
+
+@media (max-width:991px){
+    .btn-options{
+        left: 45%;
+        width: 150px;
+        height: 30px;
+        position:relative;
+        top: 30px;
+        color: #ffffff;
+        background-color: #0e3d13;
+        border: none;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+}
+
+@font-face {
+    font-family: Bauhaus; /* Имя шрифта */
+    src: url(../fonts/BauhausC-Medium.otf); /* Путь к файлу со шрифтом */
+   }
+
